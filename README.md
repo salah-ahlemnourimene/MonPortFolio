@@ -27,9 +27,8 @@ Portfolio présentant mes compétences principales en HTML, CSS et JavaScript, a
 
 ---
 
-## Contact
+## Demo
 
-- GitHub : [https://github.com/salah-ahlemnourimene](https://github.com/salah-ahlemnourimene)
 
 
 ![capture portfolio](https://github.com/user-attachments/assets/ab00d0a1-f974-42a0-b7cd-f2884e131a4c)
