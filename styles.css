@@ -1,0 +1,123 @@
+/* ======== RESET ======== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* ======== BODY ======== */
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f8f4ff; /* fond très clair pastel mauve */
+    color: #444; /* texte doux */
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  /* ======== HEADER ======== */
+  header {
+    background-color: #b692f6; /* violet pastel */
+    color: white;
+    padding: 30px 0;
+    border-bottom: 4px solid #e9dcf9;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  /* ======== SECTION GÉNÉRALE ======== */
+  section {
+    margin: 50px 0;
+  }
+  
+  section h2 {
+    color: #6a0dad; /* violet un peu plus marqué */
+    margin-bottom: 20px;
+  }
+  
+  /* ======== LISTE DE COMPÉTENCES ======== */
+  #competences ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #competences li {
+    background: #e9dcf9;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 12px;
+    width: 80%;
+    font-size: 1.1em;
+    box-shadow: 0 5px 12px rgba(182, 146, 246, 0.2);
+  }
+  
+  /* ======== PROJETS ======== */
+  .projet {
+    background: white;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 8px 20px rgba(150, 100, 255, 0.1);
+    width: 85%;
+    transition: transform 0.3s;
+  }
+  
+  .projet:hover {
+    transform: scale(1.03);
+  }
+  
+  .projet a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #b692f6;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .projet a:hover {
+    background-color: #a27efb;
+  }
+  
+  /* ======== FOOTER ======== */
+  footer {
+    background: #a27efb;
+    color: white;
+    padding: 20px;
+    margin-top: 60px;
+    font-size: 0.9em;
+  }
+  
+  footer a {
+    color: #ffe4ff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  #btnInfos {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #5a189a; /* Violet pastel foncé */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  #btnInfos:hover {
+    background-color: #7b2cbf; /* Violet plus clair */
+    transform: scale(1.05); /* Petit effet zoom au survol */
+  }
+  
